@@ -1,0 +1,37 @@
+Release notes UnA 2.0.1
+
+- Added logging to blockchain synchronizer
+- Refactored mnemonics
+- Fixed memory leaks in mnemonics
+- Fixed memory leak in simplewallet
+- Fixed memory leak in cn_slow_hash
+- Minor optimization of JSON KV-serializer
+- LoggerMessage implementation is now platform-independent
+- Transaction size limit
+- OpenAlias support in simplewallet
+- More friendly simplewallet prompt
+- Simplewallet export/import keys
+- Simplewallet import paperwallet/backup keys
+- Simplewallet export/import tracking keys
+- Change password in simplewallet
+
+Release notes UnA 0.3.0
+
+- Extra methods added for the explorer
+- Deterministic wallets and Mnemonic seed, courtesy of Monero Developers
+- Transactions confirmations in RPC response for walletd
+- Log file location for simplewallet
+- New RPC methods
+- GUI wallet mining support
+
+Release notes UnA 0.2.0
+
+- UnA features implementation
+- Security update to address Disclosure of a Major Bug in CryptoNote Based Currencies by Monero developers
+- Daemon restricted RPC mode
+- Synchronization improvements for OS X
+- Port mapping for daemon using UPnP
+
+Release notes UnA 0.1.0
+
+- Implementation of original Cryptonote protocol
